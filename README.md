@@ -1,5 +1,6 @@
 # phishlens
-
+![screenshot](screenshot.png) 
+![screenshot](screenshot2.png)
 Explainable phishing e-mail triage for `.eml` files. Pure Python standard library for the core; an optional AI second opinion is opt-in.
 
 Built as a portfolio project by a communications/informatics background aiming at SOC / CTI roles. It focuses on what an analyst actually does when a suspicious mail lands: check headers, inspect links and attachments, name the social-engineering tactics, extract IOCs, map to MITRE ATT&CK, and decide.
