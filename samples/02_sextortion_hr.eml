@@ -1,0 +1,18 @@
+From: Unknown <x8f2k@mailbox.invalid>
+To: marko.horvat@example.org
+Subject: Tvoja lozinka i snimka
+Date: Tue, 03 Nov 2026 03:02:00 +0100
+Message-ID: <b2@mailbox.invalid>
+Authentication-Results: mx.example.org; spf=fail
+ smtp.mailfrom=bounce@mailer.invalid; dkim=none; dmarc=fail
+ header.from=mailbox.invalid
+Received: from mail.sender.invalid ([203.0.113.45]) by mx.example.org; Tue, 03
+ Nov 2026 03:02:00 +0100
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Znam tvoju lozinku. Hakirao sam tvoj ure=C4=91aj i snimio sam te preko kamere=
+ dok si gledao intimne sadr=C5=BEaje. Podijelit =C4=87u snimku na tvoje konta=
+kte ako ne uplati=C5=A1 800 EUR u bitcoin u roku od 48 sati. Ne govori nikome=
+ o ovome. Bitcoin adresa: bc1qexampleexampleexampleexample0000

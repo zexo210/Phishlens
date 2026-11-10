@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>phishlens report</title>
+<style>body{font:15px/1.5 system-ui,sans-serif;max-width:860px;margin:2rem auto;padding:0 16px;color:#1c1b1f;background:#fff}
+.score{display:inline-block;padding:.4rem 1rem;border-radius:8px;color:#fff;background:#b3261e;font-weight:600}
+table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #ddd;padding:6px;text-align:left;vertical-align:top}
+code{background:#f1f1f1;padding:1px 4px;border-radius:4px;word-break:break-all}
+@media(prefers-color-scheme:dark){body{background:#121212;color:#eee}code{background:#2a2a2a}td,th{border-color:#333}}</style>
+<h1>Plaća za listopad - pogledajte prilog</h1>
+<p>Sender: hr[@]firma-dokumenti[.]xyz</p>
+<p><span class="score">100/100 &middot; likely phishing</span></p>
+<h2>Findings</h2><table><tr><th>Sev</th><th>Pts</th><th>Finding</th><th>Detail</th></tr><tr><td>high</td><td>+30</td><td>Double file extension</td><td>obracun_listopad.pdf.exe (sha256 40517a7274f9...)</td></tr><tr><td>high</td><td>+30</td><td>Executable or script attachment</td><td>obracun_listopad.pdf.exe (sha256 40517a7274f9...)</td></tr><tr><td>high</td><td>+20</td><td>HTML attachment contains a password field, form or obfuscated script</td><td>prijava.html (sha256 49241d6a7d5c...)</td></tr><tr><td>high</td><td>+15</td><td>DMARC = fail</td><td>DMARC did not pass for this message.</td></tr><tr><td>high</td><td>+10</td><td>SPF = fail</td><td>SPF did not pass for this message.</td></tr><tr><td>medium</td><td>+15</td><td>HTML/SVG attachment (credential harvesting or smuggling)</td><td>prijava.html (sha256 49241d6a7d5c...)</td></tr><tr><td>medium</td><td>+12</td><td>Credential / payment request</td><td>Matched: lozink*, prijavite se</td></tr><tr><td>medium</td><td>+6</td><td>Urgency / time pressure</td><td>Matched: odmah</td></tr><tr><td>low</td><td>+4</td><td>DKIM = none</td><td>DKIM did not pass for this message.</td></tr><tr><td>low</td><td>+4</td><td>Generic greeting</td><td>Matched: postovani korisnice</td></tr></table>
+<h2>MITRE ATT&amp;CK</h2><ul><li>T1036.007 Masquerading: Double File Extension</li><li>T1204.002 User Execution: Malicious File</li><li>T1566.001 Phishing: Spearphishing Attachment</li><li>T1598 Phishing for Information</li></ul>
+<h2>IOCs (defanged)</h2><ul><li><code>hr[@]firma-dokumenti[.]xyz</code></li></ul>
+<h2>Recommended actions</h2><ul><li>Do not click links, open attachments or reply.</li><li>Report the message to your security team / use the mail client&#x27;s phishing-report button.</li><li>Block the sender and the listed domains at the mail gateway and proxy.</li><li>Never open the attachment on a work machine; submit the hash to a sandbox/reputation service.</li></ul>
+<p></p>
+<p><small>Heuristic triage aid; a human makes the final call.</small></p></html>

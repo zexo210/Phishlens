@@ -1,0 +1,31 @@
+From: Example Weekly <news@newsletter.example.org>
+To: ana.kovac@example.org
+Subject: Tjedni pregled: novosti iz IT-a
+Date: Fri, 06 Nov 2026 07:00:00 +0100
+Message-ID: <e5@newsletter.example.org>
+Authentication-Results: mx.example.org; spf=pass; dkim=pass
+ header.d=newsletter.example.org; dmarc=pass
+ header.from=newsletter.example.org
+Received: from mail.sender.invalid ([203.0.113.45]) by mx.example.org; Fri, 06
+ Nov 2026 07:00:00 +0100
+In-Reply-To: <prev@newsletter.example.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============2546377482763407233=="
+
+--===============2546377482763407233==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Pozdrav Ana, ovo su ovotjedne novosti. Pro=C4=8Ditaj =C4=8Dlanak: https://new=
+sletter.example.org/tjedan-45
+
+--===============2546377482763407233==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Pozdrav Ana,</p><p><a href=3D"https://newsletter.example.org/t=
+jedan-45">newsletter.example.org/tjedan-45</a></p></body></html>
+
+--===============2546377482763407233==--

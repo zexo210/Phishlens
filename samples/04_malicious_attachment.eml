@@ -1,0 +1,39 @@
+From: HR Odjel <hr@firma-dokumenti.xyz>
+To: ana.kovac@example.org
+Subject: =?utf-8?q?Pla=C4=87a?= za listopad - pogledajte prilog
+Date: Wed, 04 Nov 2026 11:05:00 +0100
+Message-ID: <d4@firma-dokumenti.xyz>
+Authentication-Results: mx.example.org; spf=fail
+ smtp.mailfrom=bounce@mailer.invalid; dkim=none; dmarc=fail
+ header.from=firma-dokumenti.xyz
+Received: from mail.sender.invalid ([203.0.113.45]) by mx.example.org; Wed, 04
+ Nov 2026 11:05:00 +0100
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5350195619409050759=="
+
+--===============5350195619409050759==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Po=C5=A1tovani korisnice, u privitku se nalazi obra=C4=8Dun. Otvorite odmah i=
+ prijavite se lozinkom.
+
+--===============5350195619409050759==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="obracun_listopad.pdf.exe"
+MIME-Version: 1.0
+
+TVqQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAA==
+
+--===============5350195619409050759==
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="prijava.html"
+MIME-Version: 1.0
+
+PGh0bWw+PGZvcm0+PGlucHV0IHR5cGU9J3Bhc3N3b3JkJyBuYW1lPSdwJz48L2Zvcm0+PHNjcmlw
+dD5ldmFsKGF0b2IoJ0FBQUEnKSk8L3NjcmlwdD48L2h0bWw+
+
+--===============5350195619409050759==--

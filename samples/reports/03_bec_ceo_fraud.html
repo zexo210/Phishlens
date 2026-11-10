@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>phishlens report</title>
+<style>body{font:15px/1.5 system-ui,sans-serif;max-width:860px;margin:2rem auto;padding:0 16px;color:#1c1b1f;background:#fff}
+.score{display:inline-block;padding:.4rem 1rem;border-radius:8px;color:#fff;background:#b3261e;font-weight:600}
+table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #ddd;padding:6px;text-align:left;vertical-align:top}
+code{background:#f1f1f1;padding:1px 4px;border-radius:4px;word-break:break-all}
+@media(prefers-color-scheme:dark){body{background:#121212;color:#eee}code{background:#2a2a2a}td,th{border-color:#333}}</style>
+<h1>RE: Hitna uplata dobavljaču</h1>
+<p>Sender: ivan[.]peric[.]direktor[@]gmail[.]com</p>
+<p><span class="score">76/100 &middot; likely phishing</span></p>
+<h2>Findings</h2><table><tr><th>Sev</th><th>Pts</th><th>Finding</th><th>Detail</th></tr><tr><td>high</td><td>+15</td><td>Payment-detail change or urgent transfer request</td><td>Matched: novi iban, hitna uplata, hitnu uplatu. Typical of business e-mail compromise.</td></tr><tr><td>medium</td><td>+12</td><td>Reply-To domain differs from sender domain</td><td>From: ivan.peric.direktor@gmail.com, Reply-To: ivan.peric@example-holdings.invalid. Replies go to a different organisation (typical for business e-mail compromise).</td></tr><tr><td>medium</td><td>+12</td><td>Corporate/executive display name on a free mail service</td><td>Display name &#x27;Ivan Perić - Direktor&#x27; (matches &#x27;direktor&#x27;) sent from gmail.com.</td></tr><tr><td>medium</td><td>+10</td><td>Urgency / time pressure</td><td>Matched: hitna, odmah</td></tr><tr><td>medium</td><td>+10</td><td>Several pressure tactics combined</td><td>Combined: urgency, secrecy, credential, bec_payment.</td></tr><tr><td>medium</td><td>+8</td><td>Secrecy / isolation</td><td>Matched: ne govori nikome, strogo povjerljivo, povjerljivo</td></tr><tr><td>medium</td><td>+8</td><td>Credential / payment request</td><td>Matched: iban</td></tr><tr><td>low</td><td>+5</td><td>Fake reply/forward subject</td><td>Subject starts with RE:/FW: but the message is not part of a thread (no In-Reply-To or References). Used to add false context.</td></tr><tr><td>info</td><td>-4</td><td>SPF, DKIM and DMARC all pass</td><td>Authentication passing does not prove the mail is legitimate (attackers also use properly configured look-alike domains).</td></tr></table>
+<h2>MITRE ATT&amp;CK</h2><ul><li>T1598 Phishing for Information</li><li>T1656 Impersonation</li></ul>
+<h2>IOCs (defanged)</h2><ul><li><code>ivan[.]peric[.]direktor[@]gmail[.]com</code></li><li><code>ivan[.]peric[@]example-holdings[.]invalid</code></li></ul>
+<h2>Recommended actions</h2><ul><li>Do not click links, open attachments or reply.</li><li>Report the message to your security team / use the mail client&#x27;s phishing-report button.</li><li>Block the sender and the listed domains at the mail gateway and proxy.</li><li>Confirm any payment or bank-detail change by calling a known number before acting.</li></ul>
+<p></p>
+<p><small>Heuristic triage aid; a human makes the final call.</small></p></html>
